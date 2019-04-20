@@ -6,11 +6,11 @@ def key_for_min_value(name_hash)
 
   lowest = ""
   ikea.collect do |name, amount|
-    if amount == 
+    if amount ==
       lowest = name
     else
       return nil
     end
   end
-  lowest  
+  lowest
 end
