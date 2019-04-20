@@ -8,8 +8,6 @@ def key_for_min_value(name_hash)
   ikea.collect do |name, amount|
     if amount < 85 && amount < 450
       lowest = name
-    else
-      return nil
     end
   end
   lowest
