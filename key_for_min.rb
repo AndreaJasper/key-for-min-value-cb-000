@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   if name_hash.empty?
-    retun nil
+    return nil
   else
   lowest = name_hash.reduce { |x, y| x.last > y.last ? y : x }.first
     return lowest
